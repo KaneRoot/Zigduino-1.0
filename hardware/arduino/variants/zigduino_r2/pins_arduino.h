@@ -39,7 +39,9 @@
 				      ((p) == 7) ? 35 :-1)
 #define digitalPinHasPWM(p)         ((p) == 3 ||(p) == 4 ||(p) == 6 ||(p) == 8 ||(p) == 9 ||(p) == 10 ||(p) == 11 ||(p) == 27)
 
-/*const static uint8_t SS   = 10*/
+// TODO #define PIN_SPI_SS    (53)
+
+const static uint8_t SS   = 10;
 const static uint8_t MOSI = 20;
 const static uint8_t MISO = 12;
 const static uint8_t SCK  = 13;
